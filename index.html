@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas de Futebol</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Estatísticas do Futebol</h1>
+        <p>Explore as principais ligas, estatísticas de popularidade e desempenho de gols ao longo das temporadas</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h2>Sobre as Ligas de Futebol</h2>
+        <p>O futebol é o esporte mais popular do mundo, com ligas que atraem milhões de espectadores e fãs apaixonados. Desde as ligas locais até os campeonatos internacionais, cada torneio tem suas particularidades, regras e jogadores marcantes.</p>
+        
+        <p>As ligas mais populares incluem:</p>
+        <ul>
+            <li><strong>Premier League</strong> (Inglaterra): Reconhecida pelo ritmo intenso e alta competitividade entre clubes.</li>
+            <li><strong>La Liga</strong> (Espanha): Famosa pelo talento técnico dos jogadores e rivalidade entre Real Madrid e Barcelona.</li>
+            <li><strong>Serie A</strong> (Itália): Conhecida pela defesa sólida e estilo tático.</li>
+            <li><strong>Bundesliga</strong> (Alemanha): Destaca-se pelo jogo ofensivo e forte apoio da torcida.</li>
+            <li><strong>Brasileirão</strong> (Brasil): Celebrado pela habilidade e criatividade dos jogadores brasileiros.</li>
+        </ul>
+    </div>
+
+    <div class="chart-container">
+        <h2>Popularidade das Ligas</h2>
+        <p>O gráfico abaixo mostra a popularidade das principais ligas de futebol ao redor do mundo, com base na média de espectadores e engajamento nas redes sociais.</p>
+        <canvas id="popularidadeChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+        <h2>Média de Gols por Temporada</h2>
+        <p>O gráfico a seguir exibe a média de gols por temporada nas principais ligas, mostrando a intensidade ofensiva e o estilo de jogo de cada uma.</p>
+        <canvas id="golsChart"></canvas>
+    </div>
+
+    <div class="content">
+        <h2>Entre em Contato</h2>
+        <p>Quer colaborar com mais dados ou saber mais sobre nossas estatísticas? Entre em contato conosco:</p>
+        <p>Email: contato@futebolstats.com</p>
+        <p>Telefone: (41) 1234-5678</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Estatísticas de Futebol. Todos os direitos reservados.</p>
+    </div>
+
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Script customizado -->
+    <script src="script.js"></script>
+</body>
+</html>
